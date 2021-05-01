@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: #192a56;
+}
+
+.task {
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: #273c75;
+    height: 2rem;
+    padding-bottom: 0.2rem;
+}
+
+.input-box {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    height : 30%;
+    width: 70%;
+    /* by default inline block, changed to block */
+    display: block;
+    /* now its auto, we can change its margin */
+    margin: 0 auto;
+    margin-top: 2.2rem;
+}
+
+/* bring the text to centre */
+.task-list {
+    height: 20vh;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.input-container {
+    height: 20vh;
+    border: 5px;
+}
+
+.main-container {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    /* text align centre */
+    text-align: center;
+}
+
+.action {
+    font-size: 2rem;
+}
