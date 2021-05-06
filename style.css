@@ -1,18 +1,21 @@
 body {
     margin: 0px;
-    background-color: #192a56;
+    background-color:antiquewhite;
 }
 
 .task {
     list-style: none;
     font-size: 1.5rem;
-    background-color: #273c75;
+    background-color:rgb(252, 206, 150);
     height: 2rem;
+    color: rgba(0, 0, 0, 0.685);
     padding-bottom: 0.2rem;
+    margin-top: 10px;
+    font-family: 'Lobster', cursive;
 }
 
 .input-box {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lobster', cursive;
     font-size: 1.2rem;
     height : 30%;
     width: 70%;
@@ -26,7 +29,7 @@ body {
 /* bring the text to centre */
 .task-list {
     height: 20vh;
-    width: 70vw;
+    width: 50vw;
     margin: 0 auto;
     padding: 0;
 }
@@ -38,11 +41,12 @@ body {
 
 .main-container {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lobster', cursive;
     /* text align centre */
     text-align: center;
 }
 
 .action {
     font-size: 2rem;
+    color: rgba(0, 0, 0, 0.685);
 }
